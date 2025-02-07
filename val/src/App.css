@@ -1,0 +1,24 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./assets/background.jpg'); /* Add your image here */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  color: #fcf4f4;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Optional: Add text shadow for better readability */
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
